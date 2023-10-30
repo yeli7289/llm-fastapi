@@ -10,6 +10,7 @@ uvicorn = "==0.23.2"
 langchain = "==0.0.311"
 boto3 = "==1.28.69"
 openai = "==0.28.1"
+mangum = "*"
 
 [dev-packages]
 
