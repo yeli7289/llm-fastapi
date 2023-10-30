@@ -1,0 +1,17 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+fastapi = "==0.103.0"
+pydantic = "<2.0.0,>=1.2.0"
+uvicorn = "==0.23.2"
+langchain = "==0.0.311"
+boto3 = "==1.28.69"
+openai = "==0.28.1"
+
+[dev-packages]
+
+[requires]
+python_version = "3.9"
