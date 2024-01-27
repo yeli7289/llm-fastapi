@@ -14,6 +14,11 @@ Run `pipenv install package-name`. This should update `Pipfile` and `Pipfile.loc
 ### Test locally
 - Test on your local machine: Run `uvicorn main:app --host 0.0.0.0 --port 8000`. This will run the application at localhost on port `8000`. 
 - Test on the Dev Vercel Serverless env: Run `vercel`. This will deploy our local code into a dev env, so you can test with your local change. 
+Example of the curl command 
+```
+curl -X POST http://localhost:8000/chat -H "Content-Type: application/json" -d '{"input":"hello ai"}'
+
+```
 
 ### Deploy to Vercel
 - Set up vercel account and install vercel CLI.
